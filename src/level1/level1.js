@@ -85,12 +85,8 @@ export function esPar(num) {
 
 export function esImpar(num) {  
   // Tu código:
-  if (num % 2 !== 0){
-    return true
-    } else {
-      return false
-    }
-  }
+  return (num % 2 !== 0)
+}
 
 export function elevarAlCuadrado(num) {  
   // Tu código:
